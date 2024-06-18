@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Ring_Of_Fire": {
+    "ringoffire": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Ring_Of_Fire:build:production"
+              "buildTarget": "ringoffire:build:production"
             },
             "development": {
-              "buildTarget": "Ring_Of_Fire:build:development"
+              "buildTarget": "ringoffire:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Ring_Of_Fire:build"
+            "buildTarget": "ringoffire:build"
           }
         },
         "test": {

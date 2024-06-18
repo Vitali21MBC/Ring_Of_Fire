@@ -1,0 +1,31 @@
+.player {
+    transition: all 250ms ease-in-out;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 4px solid white;
+    border-top: none;
+
+    span {
+        font-size: 16px;
+    }
+
+    background-color: rgb(230, 230, 230);
+
+    img {
+        height: 50px;
+        width: auto;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+}
+
+.player-active {
+    transition: all 250ms ease-in-out;
+    height: 80px;
+    background-color: orange !important;
+}
